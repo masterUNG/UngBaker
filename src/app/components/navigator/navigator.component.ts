@@ -13,6 +13,8 @@ export class NavigatorComponent implements OnInit {
 
   constructor() { }
 
+  
+
   ngOnInit() {
 
     this.nameAppString = "Ung Baker";
