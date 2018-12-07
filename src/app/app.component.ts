@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
 
     let data = {username: 'Nopita', password: 'nopi12345'}
-    this.http.post
+    console.log('data ==> ' + data)
     
   } // ngOnInit
 
