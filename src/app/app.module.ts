@@ -6,6 +6,9 @@ import { NavigatorComponent } from './components/navigator/navigator.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CategoryComponent } from './components/category/category.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,8 @@ import { CategoryComponent } from './components/category/category.component';
     CategoryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
